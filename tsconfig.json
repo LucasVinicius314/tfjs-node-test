@@ -1,8 +1,10 @@
 {
   "compilerOptions": {
     "lib": ["es2021"],
-    "target": "ES6",
-    "moduleResolution": "Node"
+    "target": "ES2021",
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "outDir": "build"
   },
   "exclude": ["build"],
   "include": ["src"]
